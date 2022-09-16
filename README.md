@@ -14,7 +14,7 @@ The page loads upon landing but the generator is activated by clicking the "Gene
 
 The final output is the randmly generated password in the box.
 
-![Screenshot of full working page](../assets/03-javascript-homework-demo.png "Random Password Generator")
+![Screenshot of full working page](./assets/images/03-javascript-homework-demo.png "Random Password Generator")
 
 ### Links
 
