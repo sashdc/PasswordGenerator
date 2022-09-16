@@ -31,25 +31,25 @@ function generatePassword(){
   let criteriaChose = false;
 // ask for character parameters and each character set to usable characters 
   while (!criteriaChose){
-    let useLower = confirm("Would you like to include lower case letters in your password?");
+    let useLower = confirm("Would you like to include lower case letters in your password? \n Yes = OK\n No = Cancel");
     if (useLower){
       passChar= passChar.concat(lowerCase);
       criteriaChose = true
     }
 
-    let useUpper = confirm("Would you like to include upper case letters in your password?");
+    let useUpper = confirm("Would you like to include upper case letters in your password?\n Yes = OK\n No = Cancel");
     if (useUpper){
       passChar= passChar.concat(upperCase);
       criteriaChose = true
     }
 
-    let useNum = confirm("Would you like to include numbers in your password?");
+    let useNum = confirm("Would you like to include numbers in your password?\n Yes = OK\n No = Cancel");
     if (useNum){
       passChar= passChar.concat(numeric);
       criteriaChose = true
     }
 
-    let useSpec = confirm("Would you like to include special characters in your password?");
+    let useSpec = confirm("Would you like to include special characters in your password?\n Yes = OK\n No = Cancel");
     if (useSpec){
       passChar= passChar.concat(specChar);
       criteriaChose = true
