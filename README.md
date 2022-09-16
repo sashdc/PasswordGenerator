@@ -10,22 +10,21 @@ N/A
 
 ## Usage
 
-The page loads upon landing but the generator is activated by clicking the "Generate Password" button which leads to window prompts that will take in user selections for length and inclded character sets.
+The page loads upon landing but the generator is activated by clicking the "Generate Password" button which leads to window prompts that will take in user selections for length and included character sets.
 
-The final output is the randmly generated password in the box.
+The final output is the randomly generated password in the box.
 
 ![Screenshot of full working page](./assets/images/03-javascript-homework-demo.png "Random Password Generator")
 
 ### Links
 
- [Github Page](https://sashdc.github.io/Sashdc-BC-Mod2-Challenge/)
-
+ [Github Page](https://sashdc.github.io/PasswordGenerator/)
+ 
  [Github Repo](https://github.com/sashdc/PasswordGenerator)
 
  ## Credits
 
 Cherian, Saharsh
-
 
 [Creator Github](https://github.com/sashdc)
 
